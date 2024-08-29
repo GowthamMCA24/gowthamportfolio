@@ -13,6 +13,8 @@
         <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
        <nav>
@@ -43,18 +45,19 @@
         }
         </script>
         <section id=section1id class="section1 mt-5">    
-        <div class="container">
+        <div class="container" data-aos="fade-down"
+        data-aos-duration="1500">
                     <div class="row">
-                        <div class="co1-12 col-sm-8 col-md-8 col-lg-8">
+                        <div class="co1-12 col-sm-8 col-md-8 col-lg-8" >
                           <div class="title">
-                            <h3>Gowtham</h3>
+                            <h3 >Gowtham</h3>
                             <h1>I'm a <span>Web Developer</span<h1>
                           </div>
                             <p>A developer fueled by the fervor for
                              crafting visually captivating and
                              intuitively navigable website,on
                              mission to bring web experiences to life</p>
-                            <a href="gowthampdf/gowthamresume.pdf" download="gowthampdf"><button class="cvbutton">Download CV</button></a>
+                            <a href="gowthampdf/gowthamresume.pdf" download="gowthampdf"><button class="cvbutton" >Download CV</button></a>
                         </div>
                         <div class="co1-12 col-sm-4 col-md-4 col-lg-4 mt-5">
                             <div class="image">
@@ -65,11 +68,11 @@
          </div>
         </section>
 
-    <section id=section2id class="section2 mt-5">
-       <div class="container text-center animate__animated animate__fadeInDown">
+    <section id=section2id class="section2 mt-5" data-aos="fade-right">
+       <div class="container text-center ">
                 <h2>About Me</h2>
             <div class="row mt-5">
-                    <div class="co1-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="co1-12 col-sm-6 col-md-6 col-lg-6" data-aos="fade-right">
                       <div class="intro">
                         <h2 class="mb-3">My introduction</h2>
                          <p>
@@ -87,7 +90,7 @@
                         </p>
                     </div>
                     </div>
-                    <div class="co1-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+                    <div class="co1-12 col-sm-6 col-md-6 col-lg-6 mt-3" data-aos="fade-left">
                         <div class="container">
                             <div class="row ">
                                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
@@ -130,7 +133,7 @@
     </section>
 
     <section id=section4id class="section3 mt-5 mb-5">
-        <div class="container text-center animate__animated animate__fadeInUp">
+        <div class="container text-center"  data-aos="fade-up" data-aos-duration="3000">
             <h1>Get in touch</h1>
             <div class="row mt-5">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
@@ -140,7 +143,7 @@
                      <p><i class="fa-solid fa-phone"></i>&nbsp;9994270679</p>
                    </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-5">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-5 ">
                     <div class="form-group">
                      <input type="text" placeholder="name">
                     </div>
@@ -155,7 +158,9 @@
                 </div>
             </div>
         </div>
-        
+        <script>
+            AOS.init();
+          </script>        
             
         
                
