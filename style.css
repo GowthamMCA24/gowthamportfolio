@@ -6,6 +6,7 @@ nav{
     padding: 10px 30px;
     position: relative;
     height: 70px;
+    z-index:9;
 }
 nav ul{
     display: flex;
@@ -76,6 +77,8 @@ li{
 }
 @media screen and (max-width:600px)
 {
+    
+    
     nav ul{
         position: absolute;
         top:70px;
@@ -86,6 +89,7 @@ li{
         text-align: center;
         background-color:white;
         overflow: hidden;
+        z-index:12;
        
 }
 nav ul li{
